@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Ramjas College, Delhi University',
-        course: 'B.A. Honours History',
+        institution: 'SMP Negeri 5 Bogor',
+        course: 'Junior High School',
+        startYear: '2012',
+        endYear: '2015'
+    },
+    {
+        id: 2,
+        institution: 'SMA Negeri 3 Bogor',
+        course: 'Science, High School',
         startYear: '2015',
         endYear: '2018'
     },
     {
-        id: 2,
-        institution: 'Delhi University',
-        course: 'M.A. History',
-        startYear: '2019',
-        endYear: '2021'
-    },
-    {
         id: 3,
-        institution: 'Masai School of Coding',
-        course: 'Fullstack Web-Development',
-        startYear: '2021',
-        endYear: 'Present'
+        institution: 'Universitas Airlangga',
+        course: 'Bachelor of Information System (Software Engineering)',
+        startYear: '2018',
+        endYear: '2022'
     },
 ]
