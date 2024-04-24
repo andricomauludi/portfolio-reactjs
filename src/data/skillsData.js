@@ -3,10 +3,21 @@
     'Javascript',
     'CSS',
     'React',
-    'Django',
+    // 'Django',
     'MongoDB',
     'MySQL',
-    'Python'
+    'Python',
+    'Azure',
+    'Docker',
+    'Next JS',
+    'Typescript',
+    'Go',
+    'Java',
+    'Php',
+    'Firebase',
+    'Nginx',
+    'Git',
+    
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

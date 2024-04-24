@@ -6,53 +6,118 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
+import dotslandingpage from '../assets/png/dots-landing-page.png'
+import dotsprototype from '../assets/png/dots-prototype-landing-page.png'
+import dotsprototype2 from '../assets/png/dots-prototype-landing-page2.png'
+import sipetarung from '../assets/png/sipetarung.png'
+import cas from '../assets/png/cas.png'
+import arine from '../assets/png/arine.png'
+import umkm from '../assets/png/umkm.png'
+import morningmood from '../assets/png/morningmood.png'
+import pengumumanbem from '../assets/png/pengumumanbem.png'
+import usecasespec from '../assets/png/usecasespec.png'
+import dotswmsfrontend from '../assets/jpeg/dotswms-frontend.jpeg'
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'History Through Movies',
-        projectDesc: 'This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.',
-        tags: ['Django', 'HTML' ,'CSS', 'Javascript'],
-        code: 'https://github.com/sreerag-rajan/historythroughmovies',
-        demo: 'https://historythroughmovies.pythonanywhere.com/',
-        image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
+        projectName: 'DOTS Landing Page',
+        projectDesc: 'This project seeks to explore effect that we can show with JavaScript. The Website is intended to show DOTS Enterprise profile. I have a fullstack role in this having built all of it.',
+        tags: ['HTML' ,'CSS', 'Javascript'],
+        code: 'https://github.com/andricomauludi/dots-landing-page',
+        demo: 'https://dots.co.id',
+        image: dotslandingpage
     },
     {
         id: 2,
-        projectName: 'Sportsjam.in Clone',
-        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
-        tags: ['HTML', 'CSS','Javascript'],
-        code: 'https://github.com/sreerag-rajan/sportsjam-clone',
-        demo: 'https://practical-meninsky-36f305.netlify.app/',
-        image: "https://camo.githubusercontent.com/f9fbe30b577cff2fbf09af53fb3c1f12fcc10a771bf9459ed5af10bffab9e38b/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3837352f312a525f5f63646e384c316759474b3154647171797562672e706e67"
+        projectName: 'DOTS Web Management System',
+        projectDesc: 'This website is for internal work management. It works like Monday.com but a bit simpler. This website is for DOTS Enterprise internal only. I build with MERN Stack',
+        tags: ['HTML', 'CSS','Javascript, NextJS, ExpressJS, NodeJS, MongoDB'],
+        code: 'https://github.com/andricomauludi/dotswms-frontend-final',
+        demo: 'https://wms.dots.co.id',
+        image: dotswmsfrontend
     },
     {
         id: 3,
-        projectName: 'Educative Clone',
-        projectDesc: 'This project is the clone of Educative.io. Built as part of Project week, my contributions include the home page(both with user and without user), course information page and checkout page. The rest of the pages and features were built by other members of my team',
-        tags: ['React', 'Material UI', 'Express', "MongoDB","NodeJS"],
-        code: 'https://github.com/sreerag-rajan/educative-clone',
-        demo: 'https://educative-clone.vercel.app/',
-        image: "https://user-images.githubusercontent.com/85482640/161571651-35ab8e4e-dc57-4834-bafc-9485766f5b8a.png"
+        projectName: 'Arine Dashboard',
+        projectDesc: 'This project is build a website for hardware monitoring. It can work with cctv, knowing location of the server, server status, and session on that server.',
+        tags: ['Python', 'Django','MySQL','Linux Server','OpenCV'],
+        code: '',
+        demo: '#',
+        image: arine
     },
     {
         id: 4,
-        projectName: 'Reliance Digital Clone - Backend Integration',
-        projectDesc: 'This is the clone of reliancedigital.in. Features I worked on the Product Catalogue pages and also on some minor parts on other pages as well',
-        tags: ['EJS', 'Express', 'MongoDB', 'Node.js'],
-        code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        projectName: 'Cloud Activation System',
+        projectDesc: 'This website is for internal only. Its work as a bureau management',
+        tags: ['PHP', 'JavaScript', 'jQuery','CodeIgniter4','MySQL'],
+        code: '',
+        demo: 'https://casdev.floucloud.id/',
+        image: cas
     },
     {
         id: 5,
-        projectName: 'Reliance Digital Clone - Frontend',
-        projectDesc: 'This project is the clone of Reliance Digital built as a part of a project week. It simulates the functionality of an e-commerce website from landing page to checkout. My contribution was the product catalog page arriving from the navbar, as well as leading the team.',
-        tags: ['HTML', 'CSS', 'Javascript'],
-        code: 'https://github.com/iamrituyadav/Reliance_digital',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        projectName: 'Website UMKM',
+        projectDesc: 'Its a project for helping small medium enterprise in my area. This is a free website for Small District in Bogor, Indonesia. It is for catalog and items that they sell',
+        tags: ['HTML', 'CSS', 'Javascript', 'PHP','Laravel'],
+        code: 'https://github.com/andricomauludi/catalog_menteng',
+        demo: '#',
+        image: umkm
+    },
+    {
+        id: 6,
+        projectName: 'Sipetarung',
+        projectDesc: 'This project is work to generate member card. It is for Tata Ruang Berlisensi Kementrian ATR/BPN (Ministry in our Government). ',
+        tags: ['PHP', 'JavaScript', 'jQuery','CodeIgniter4','MySQL'],
+        code: '',
+        demo: 'https://tataruang.atrbpn.go.id/sipetarungberlisensi/landing-page.html',
+        image: sipetarung
+    },
+    {
+        id: 7,
+        projectName: 'DOTS Prototype Landing Page',
+        projectDesc: 'It is just a prototype landing page, but with React JS',
+        tags: ['JavaScript', 'Html','ReactJS'],
+        code: '',
+        demo: '#',
+        image: dotsprototype
+    },
+    {
+        id: 8,
+        projectName: 'Member Announcement of Organization',
+        projectDesc: 'This website is for member announcement of an organization in Universitas Airlangga. Tech stack of this website is PHP and Html',
+        tags: ['JavaScript', 'Html','PHP', 'MySQL'],
+        code: '',
+        demo: '#',
+        image: pengumumanbem
+    },
+    {
+        id: 9,
+        projectName: 'Use Case Specification to BPMN Generator',
+        projectDesc: 'This website is for our project in bachelor degree. This website is work as a generator from Usecase Specification to BPMN Diagram.',
+        tags: ['Django', 'Python','HTML', 'MySQL', 'JavaScript'],
+        code: '',
+        demo: '#',
+        image: usecasespec
+    },
+    {
+        id: 10,
+        projectName: 'Morning Mood Landing Page',
+        projectDesc: 'This website is showing menu and profile of a F&B Small Medium Enterprise Morning Mood. Customer can see what they selling and who are they.',
+        tags: ['ReactJS', 'HTML', 'MySQL', 'JavaScript'],
+        code: '',
+        demo: '#',
+        image: morningmood
+    },
+    {
+        id: 11,
+        projectName: 'DOTS Prototype Landing Page',
+        projectDesc: 'This website is a prototype of a landing page that I use when client needs a bright and clean landing page.',
+        tags: ['HTML', 'MySQL'],
+        code: '',
+        demo: '#',
+        image: dotsprototype2
     },
     
 ]
