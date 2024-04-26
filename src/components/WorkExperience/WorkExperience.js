@@ -2,12 +2,12 @@ import React, { useContext } from "react";
 
 import { ThemeContext } from "../../contexts/ThemeContext";
 
-import "./Education.css";
-import EducationCard from "./EducationCard";
+import "./WorkExperience.css";
+import EducationCard from "./WorkExperienceCard";
 
-import { educationData } from "../../data/educationData";
+import { workExperienceData } from "../../data/educationData";
 
-function Education() {
+function WorkExperience() {
   const { theme } = useContext(ThemeContext);
   return (
     <div
@@ -16,9 +16,15 @@ function Education() {
       style={{ backgroundColor: theme.secondary }}
     >
       <div className="education-body">
-        <div className="education-description">
-          <h1 style={{ color: theme.primary }}>Education</h1>
-          {educationData.map((edu) => (
+        <div className="workexperience-image" style={{ alignContent: "end" }}>
+          <img src={theme.expimg} alt="" />
+        </div>
+        <div
+          className="workexperience-description"
+          style={{ alignItems: "end" }}
+        >
+          <h1 style={{ color: theme.primary }}>Work Experience</h1>
+          {workExperienceData.map((edu) => (
             <EducationCard
               key={edu.id}
               id={edu.id}
@@ -26,15 +32,13 @@ function Education() {
               course={edu.course}
               startYear={edu.startYear}
               endYear={edu.endYear}
+              job={edu.job}
             />
           ))}
-        </div>
-        <div className="education-image">
-          <img src={theme.eduimg} alt="" />
         </div>
       </div>
     </div>
   );
 }
 
-export default Education;
+export default WorkExperience;

@@ -27,22 +27,6 @@
     font-family: var(--primaryFont);
     margin-bottom: 2rem;
 }
-.workexperience-description {
-    width: 100%;
-    flex: 0.65;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    margin-right: 7%;
-}
-
-.workexperience-description > h1{
-    font-size: 3.5rem;
-    font-family: var(--primaryFont);
-    margin-bottom: 2rem;
-}
 
 .education-card {
     display: flex;
@@ -50,7 +34,7 @@
     align-items:flex-start;
     justify-content: flex-start;
     width: 90%;
-    height: 140px;
+    height: 240px;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
@@ -94,7 +78,7 @@
     font-weight: 600;
 }
 
-.education-image {
+.workexperience-image {
     box-sizing: border-box;
     padding: 1rem;
     flex: 0.35;
@@ -102,7 +86,7 @@
     pointer-events: none;
 }
 
-.education-image > img {
+.workexperience-image > img {
     width: 100%;
 }
 
@@ -117,7 +101,7 @@
     .education {
         min-height: 100%;
     }
-    .education-image {
+    .workexperience-image {
         display: none;
     }
     .education-description {
@@ -125,13 +109,6 @@
         margin: auto;
     }    
     .education-description > h1{
-        font-size: 3.2rem;
-    }
-    .workexperience-description {
-        flex: 1;
-        margin: auto;
-    }    
-    .workexperience-description > h1{
         font-size: 3.2rem;
     }
     .education-card {
@@ -148,14 +125,6 @@
         align-self: center;
     }
     .education-description {
-        padding: 1rem;
-    }
-    .workexperience-description > h1{
-        font-size: 3rem;
-        margin-bottom: 2rem;
-        align-self: center;
-    }
-    .workexperience-description {
         padding: 1rem;
     }
     .education-card {
@@ -190,9 +159,6 @@
 
 @media screen and (max-width: 600px) {
     .education-description > h1{
-        font-size: 2.5rem;
-    }
-    .workexperience-description > h1{
         font-size: 2.5rem;
     }
 }

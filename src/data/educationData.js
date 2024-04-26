@@ -1,23 +1,65 @@
 export const educationData = [
-    {
-        id: 1,
-        institution: 'SMP Negeri 5 Bogor',
-        course: 'Junior High School',
-        startYear: '2012',
-        endYear: '2015'
-    },
-    {
-        id: 2,
-        institution: 'SMA Negeri 3 Bogor',
-        course: 'Science, High School',
-        startYear: '2015',
-        endYear: '2018'
-    },
-    {
-        id: 3,
-        institution: 'Universitas Airlangga',
-        course: 'Bachelor of Information System (Software Engineering)',
-        startYear: '2018',
-        endYear: '2022'
-    },
-]
+  {
+    id: 1,
+    institution: "SMP Negeri 5 Bogor",
+    course: "Junior High School",
+    startYear: "2012",
+    endYear: "2015",
+  },
+  {
+    id: 2,
+    institution: "SMA Negeri 3 Bogor",
+    course: "Science, High School",
+    startYear: "2015",
+    endYear: "2018",
+  },
+  {
+    id: 3,
+    institution: "Universitas Airlangga",
+    course: "Bachelor of Information System (Software Engineering)",
+    startYear: "2018",
+    endYear: "2022",
+  },
+];
+export const workExperienceData = [
+  {
+    id: 1,
+    institution: "PT. Dedikasi Olah Tangan Semesta (Freelancer)",
+    course: "Fullstack Developer and Cloud Engineer",
+    startYear: "Dec 2023",
+    endYear: "Now",
+    job: "Build 3 websites on a server. Landing page, Frontend Web Management System, and Backend Web Management System. All websites are dockerized containers deployment on Virtual Private Server. Issue Tracking Tool with Trello and Monday.com. Tech Stack : NextJS, ExpressJS, MongoDB, Docker Container, Nginx Reverse Proxy",
+  },
+  {
+    id: 2,
+    institution: "Tata Ruang Kementrian ATR/BPN (Freelancer)",
+    course: "Fullstack Developer",
+    startYear: "Aug 2023",
+    endYear: "Feb 2024",
+    job: "Maintaining and build a fullstack website for card member generator. Using Laravel and MySQL. Using VPS Deployment.",
+  },
+  {
+    id: 2,
+    institution: "PT. Sigma Cipta Caraka (Full-time)",
+    course: "Azure Delivery and Operation Staff",
+    startYear: "Mar 2023",
+    endYear: "Now",
+    job: "Delivering and maintaining Azure Cloud to client, maintaining of On-premise Microsoft Infrastructure (Active Directory, Exchange Server)",
+  },
+  {
+    id: 3,
+    institution: "PT. Sigma Cipta Caraka",
+    course: "Junior Consultant Cloud Development",
+    startYear: "Okt 2022",
+    endYear: "Mar 2023",
+    job: "Work as a fullstack engineer. Developing internal website using CodeIgniter4, MySQL, and Gitlab CI/CD. Issue Tracking Tool with Jira Atlassian and Trello",
+  },
+  {
+    id: 4,
+    institution: "PT. Telekomunikasi Indonesia (Internship)",
+    course: "Fullstack Developer",
+    startYear: "Jan 2021",
+    endYear: "Jun 2021",
+    job: "Work as a fullstack engineer. Developing internal website for hardware monitoring (Metro-E and Server). Tech stack using Django and on-premise server. Issue Tracking Tool with Trello",
+  },
+];
