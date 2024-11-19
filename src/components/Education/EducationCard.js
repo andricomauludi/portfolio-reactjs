@@ -18,6 +18,7 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
             "&:hover": {
                 backgroundColor:theme.primary50,
             },
+            height:"140px"
         },
     }));
 

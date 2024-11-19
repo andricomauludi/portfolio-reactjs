@@ -1,20 +1,13 @@
 export const educationData = [
   {
     id: 1,
-    institution: "SMP Negeri 5 Bogor",
-    course: "Junior High School",
-    startYear: "2012",
-    endYear: "2015",
-  },
-  {
-    id: 2,
     institution: "SMA Negeri 3 Bogor",
     course: "Science, High School",
     startYear: "2015",
     endYear: "2018",
   },
   {
-    id: 3,
+    id: 2,
     institution: "Universitas Airlangga",
     course: "Bachelor of Information System (Software Engineering)",
     startYear: "2018",
@@ -22,6 +15,14 @@ export const educationData = [
   },
 ];
 export const workExperienceData = [
+  {
+    id: 0,
+    institution: "iSeller Commerce",
+    course: "DevOps Engineer Specialist",
+    startYear: "Sept 2024",
+    endYear: "Now",
+    job: "Deployment using Azure DevOps, Managing and Housekeeping VM and VMSS on Azure, Fully on Cloud Architecture (VM for Deployment, Database)",
+  },
   {
     id: 1,
     institution: "PT. Dedikasi Olah Tangan Semesta (Freelancer)",
